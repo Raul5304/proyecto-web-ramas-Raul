@@ -1,5 +1,8 @@
-function suma(a,b){
-    return a + b;
-}
+document.addEventListener("DOMContentLoaded", () => {
+    const titulo = document.querySelector("h1");
 
-alert(suma(5,7));
+    titulo.addEventListener("click", () => {
+        titulo.textContent = "Has hecho clic en el título";
+        titulo.style.color = "blue";
+    });
+});
