@@ -15,3 +15,15 @@ footer{
 header{
     text-align: center;
 }
+button {
+    padding: 10px 20px;
+    background-color: #008cff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
